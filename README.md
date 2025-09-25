@@ -1,10 +1,11 @@
 # EXAMEN-DOCKER
-INTRODUCTION
+# INTRODUCTION
+
 Avec l'utilisation de Docker 
 
-"la plate-forme Docker offre un haut degré de portabilité ,ce qui permet aux utilisateurs de s'enregistrement  et partager de conteneurs sur une  grande variéte d'hotes au sein d'environnement publics et privés .Il est alors possible de développer des aplications de façon plus efficiente,en utilisant moins de ressorces,et de déployer ces applications rapidement 
+la plate-forme Docker offre un haut degré de portabilité ,ce qui permet aux utilisateurs de s'enregistrement  et partager de conteneurs sur une  grande variéte d'hotes au sein d'environnement publics et privés .Il est alors possible de développer des aplications de façon plus efficiente,en utilisant moins de ressorces,et de déployer ces applications rapidement 
 
-jours 1
+# jours 1
 
 dockers ps
 visualiser ou lister les conteneurs actifs
@@ -38,15 +39,13 @@ Construire une image à partir de Dockerfile
 # docker history [image]
  Afficher l’historique d’une image
 
-docker logs --tail 5 [conteneur]
-→ Visualiser les logs d’un conteneur
+# docker  logs --tail 5[conteneur]
+Visualiser les logs d'un conteneur 
 
-docker login
-→ Se connecter au registre
+# docker login
+se connecter au registre
 
-docker search [image]
-→ Rechercher une image
+# docker search [image]
+Récupérer une image
 
-docker pull [image]
-→ Récupérer une image
 
