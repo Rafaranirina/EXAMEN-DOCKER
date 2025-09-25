@@ -8,4 +8,45 @@ jours 1
 
 dockers ps
 visualiser ou lister les conteneurs actifs
+docker ps
+→ Visualiser ou lister les conteneurs actifs
+
+docker ps -a
+→ Visualiser ou lister tous les conteneurs
+
+docker rm [conteneur]
+→ Supprimer un conteneur inactif
+
+docker rm -f [conteneur]
+→ Supprimer un conteneur actif
+
+docker images
+→ Lister les images existantes
+
+docker rmi [image]
+→ Supprimer une image
+
+docker exec -t -i [conteneur] /bin/bash
+→ Exécuter des commandes dans un conteneur actif
+
+docker inspect [conteneur]
+→ Inspecter la configuration d’un conteneur
+
+docker build -t [image]
+→ Construire une image à partir de Dockerfile
+
+docker history [image]
+→ Afficher l’historique d’une image
+
+docker logs --tail 5 [conteneur]
+→ Visualiser les logs d’un conteneur
+
+docker login
+→ Se connecter au registre
+
+docker search [image]
+→ Rechercher une image
+
+docker pull [image]
+→ Récupérer une image
 
