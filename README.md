@@ -49,3 +49,85 @@ se connecter au registre
 Récupérer une image
 
 
+#  jours 2
+# Evaluation Formative
+
+#  Ou se stockés les volumes des Docker?
+Vous dévez navigeur à :/var/lib/docker/volumes
+
+#  un volume de Docker est:
+* un espace de stockage connecté à un ou plusieurs conteneurs Docker
+* Une image fonctionnelle à partir de laquelle on crée des conteneurs identiques
+* Un snaphost de l'application que l'on deploie dans un cluster comme swarm 
+
+
+
+# docker-compose up  
+Lancer les conteneurs définis dans le fichier docker-compose.yml
+
+# docker-compose down  
+ Arrêter et supprimer les conteneurs, réseaux, volumes, et images créés par docker-compose up
+
+# docker-compose build  
+ Construire ou reconstruire les services définis dans le fichier docker-compose.yml
+
+# docker-compose logs  
+Afficher les logs des conteneurs gérés par docker-compose
+
+# docker-compose logs --tail 5  
+Afficher les 5 dernières lignes des logs des conteneurs
+
+# docker-compose ps  
+Lister les conteneurs gérés par docker-compose
+
+# docker-compose stop  
+Arrêter les conteneurs sans les supprimer
+
+# docker-compose start  
+Démarrer les conteneurs arrêtés
+
+# docker-compose restart  
+Redémarrer les conteneurs
+
+# docker-compose exec [conteneur] bash  
+Exécuter une commande dans un conteneur existant (mode interactif)
+
+# docker-compose run [conteneur] bash  
+Lancer un nouveau conteneur pour exécuter une commande
+
+# docker-compose config  
+Valider et afficher la configuration du fichier docker-compose.yml
+
+# docker-compose top  
+Afficher les processus en cours dans les conteneurs
+
+# docker-compose kill  
+Envoyer un signal SIGKILL aux conteneurs
+
+# docker-compose pause  
+Suspendre les conteneurs
+
+# docker-compose unpause  
+Reprendre les conteneurs suspendus
+
+# docker-compose pull  
+Télécharger les images définies dans le fichier docker-compose.yml
+
+# docker-compose push  
+Envoyer les images vers un registre
+
+# docker-compose rm  
+Supprimer les conteneurs arrêtés
+
+# docker-compose scale  
+Définir le nombre d’instances d’un service
+
+# docker-compose version  
+Afficher la version de Docker Compose
+
+
+
+
+
+
+
