@@ -126,6 +126,56 @@ Définir le nombre d’instances d’un service
 Afficher la version de Docker Compose
 
 
+# JOURS 3
+
+# docker-compose up -d  
+Démarrer un ensemble de conteneur en arrière plan
+
+# docker-compose down  
+Stoppe un ensemble de conteneur
+
+# docker-compose exec [service] [command]  
+Exécute une commande au sein d’un service
+
+# docker-compose logs (<ID>/<NAME>)  
+Voir les logs d’un conteneur uniquement, au lieu de tous
+
+# docker-compose stop  
+Arrête tous les services situés dans votre docker-compose.yml sans supprimer
+
+# docker-compose start  
+Démarre tous les services situés dans votre fichier docker-compose.yml
+
+# docker-compose pause  
+Met en pause les conteneurs dans un service répertorié dans le fichier
+
+# docker-compose unpause  
+Reprend les conteneurs en pause dans un service
+
+# docker-compose restart  
+Redémarre tous les conteneurs d’un service
+
+# docker-compose rm  
+Supprime les conteneurs arrêtés dans un fichier
+
+# docker-compose pull  
+Télécharge uniquement les images à partir du docker-compose.yml
+
+# docker-compose build  
+Construit uniquement les images à partir du docker-compose.yml
+
+# docker-compose ps  
+Affiche la liste des conteneurs déployés
+
+# docker-compose images  
+Enumère toutes les images
+
+# docker-compose top  
+Affiche l’utilisation des conteneurs déployés à partir du fichier
+
+# docker-compose config  
+Visualise et valide un fichier docker-compose.yml
+
 
 
 
