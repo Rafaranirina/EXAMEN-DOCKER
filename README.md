@@ -177,7 +177,7 @@ Affiche l’utilisation des conteneurs déployés à partir du fichier
 Visualise et valide un fichier docker-compose.yml
 
 
-jour 4
+# jour 4
 
 
 #Docker SWARM
@@ -187,7 +187,7 @@ Swarm est un groupe de machine exécutant le moteur Docker et faisant partie du 
 creer un cluster Swarm :
 initier le mode swarm: $ docker swarm init
 
-$ dockerswarm init --advertise -addr<Votre -Adresse_IP>
+ # $ dockerswarm init --advertise -addr<Votre -Adresse_IP>
 
 verfier l'état du swarm : $ docker info et $ docker node ls
 
