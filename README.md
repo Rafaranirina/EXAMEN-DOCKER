@@ -180,6 +180,24 @@ Visualise et valide un fichier docker-compose.yml
 jour 4
 
 
+#Docker SWARM
+
+Swarm est un groupe de machine exécutant le moteur Docker et faisant partie du même cluster.Docker Swarm vous permet de lancer des commandes Docker auxquelles vous êtes habitué sur un cluster depuis une machine maître nommée"Manager/leader Swarm"
+
+creer un cluster Swarm :
+initier le mode swarm: $ docker swarm init
+
+$ dockerswarm init --advertise -addr<Votre -Adresse_IP>
+
+verfier l'état du swarm : $ docker info et $ docker node ls
+
+créer un cluster Swarm :
+
+Ajouter des Noeuds au swarm(worker): $ docker swarm join --token<Votre -Adresse-IP>2377
+
+Noeuds(Manager): $ docker swarm join-token 23777
+
+
 
 
 
